@@ -15,7 +15,7 @@
     }
 
     .title-small-wrapper {
-      background-color: aqua;
+      background-color: aqua; /*adjust the color of your choice */
     }
 
     h3 {
@@ -71,7 +71,7 @@
     button:active {
       border: 2px solid rgb(255, 255, 255);
     }
-    
+
     .move-display {
       grid-row-start: 4;
       grid-column: 1/span 4;
