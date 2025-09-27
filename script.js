@@ -28,7 +28,6 @@ function randomMove() {
 }
 
 
-
 function startGame() {
   statusDisplay.textContent = "Choose!";
   buttons.forEach((button, index) => {
@@ -50,8 +49,8 @@ function endGame(event) {
   moveDisplays.forEach(
     (moveDisplay) => (moveDisplay.style.display = "inline-block")
   );
-  moveDisplays[0].textContent = `You played: ${moveList[playerMove]}`;
-  moveDisplays[1].textContent = `Computer played: ${moveList[computerMove]}`;
+  moveDisplays[0].textContent = `You played ${moveList[playerMove]}`;
+  moveDisplays[1].textContent = `Computer played ${moveList[computerMove]}`;
 
   buttons.forEach((button, index) => {
     if (index == 1) {
